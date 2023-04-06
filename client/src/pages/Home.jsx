@@ -28,7 +28,7 @@ const Home = () => {
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
               <h1 className="head-text">
-                LET'S <br className="xl:block hidden" /> TEE-TREND YOUR SHIRT.
+                WE <br className="xl:block hidden" /> TREND SHIRTS.
               </h1>
             </motion.div>
             <motion.div
@@ -36,7 +36,7 @@ const Home = () => {
               className="flex flex-col gap-5"
             >
               <p className="max-w-md font-normal text-gray-600 text-base">
-              At TEE-Trends, we believe that every individual is unique and deserves to express their style in their own way. That's why we've created a brand-new 3D customization tool that lets you create your own one-of-a-kind shirt that <strong>truly reflects who you are</strong>. 
+              At TEE-Trends, we believe that every individual is unique and deserves to express their style in their own way. That's why we've created a brand-new 3D AI customization tool that lets you create your own one-of-a-kind shirt that <strong>truly reflects who you are</strong>. 
               </p>
 
               <CustomButton 
