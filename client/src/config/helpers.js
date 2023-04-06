@@ -17,6 +17,7 @@ export const reader = (file) =>
     fileReader.readAsDataURL(file);
   });
 
+// Used to get the contrasting color of a given color for our button 
 export const getContrastingColor = (color) => {
   // Remove the '#' character if it exists
   const hex = color.replace("#", "");
